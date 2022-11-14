@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector1</title>
+</head>
+<body>
+    <style type="text/css">
+        /*h1{ 
+            Свойство: значение;  по тегу 
+        }
+        .class1{
+            Свойство: значение;  по классу 
+        }
+        p.class1{
+            Свойство: значение;  по тегу с классом 
+        }
+        #id1{
+            Свойство: значение;  по id 
+        }
+        p#id2{
+            Свойство: значение;  к тегу с id 
+        }
+        .class1 span{
+            Свойство: значение;  тег врутри другого тега с классом 
+        }
+        .class2 .class3{
+            Свойство: значение;  класс внутри другого класса 
+        }*/
+        #test1{
+            background: goldenrod;
+        }
+        .test2{
+            background: green;
+        }
+        h2.test2{
+            background: red
+        }
+        .test2 .test2_1{
+            color: white;
+        }
+    </style>
+    <h2 class="test2">Цитата</h2>
+    <p id="test1">Волк не тот, кто за бочок кусает, а тот, кто брата не бросает.</p>
+    <p class="test2">Волк не тот, кто за бочок кусает, а тот, кто<strong class="test2_1"> брата </strong> не бросает.</p>
+</body>
+</html>

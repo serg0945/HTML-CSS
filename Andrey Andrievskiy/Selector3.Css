@@ -1,0 +1,69 @@
+.first_p{
+    background: violet;
+    font-size: medium;
+    color: aqua;
+}
+
+p.second_p{
+    background: #00ff00;
+}
+
+
+/*a:link - ссылка, на которую никто ещё не нажимал
+a:visited - Ссылка, по которой уже перешли
+a:hover - цвет при наведении
+a:active  - изменение свойств текста при нажатии
+*/ 
+
+a:hover{ /*hover - цвет при наведении*/
+    color:red;
+}
+
+a:active{ /*active  - изменение свойств текста при нажатии*/
+    font-size: large;
+}
+
+a:visited{ /*visited - Ссылка, по которой уже перешли*/
+    color: #000000;
+}
+
+a:link{ /*link - ссылка, на которую никто ещё не нажимал */
+    color: peru;
+}
+
+strong:first-child{ /* Применение стиля к первому дочернему элементу своего родителя */
+    color: red;
+    font-size: large;
+    font-style: italic;
+}
+
+.cic:first-line{ /*Применение стиля к первой линии дочернего элемента своего родителя*/
+    color:#00ff00;
+}
+
+input:focus{ /* Применяется к элементу при получении им фокуса. */
+    color: aqua;
+    background-color: darkblue;
+}
+
+.cic::before{ /* Добавление контента до, не копируется */
+    content: "Не копируется ";
+}
+
+.cic::after{
+    content: "Не копируется";
+} /* Добавление контента после, не копируется */
+
+.cic::selection{
+    background:#ff0000;
+    color: #ffffff;
+}
+
+.shrift{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-variant: small-caps;
+    line-height: 30px;
+    letter-spacing: 2px; /* Определяет интервал между символами в пределах элемента. */
+
+}
