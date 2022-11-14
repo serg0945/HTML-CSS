@@ -1,0 +1,15 @@
+.block_1{
+    width: auto;
+    background: rgb(255, 255, 255);
+    max-width: 1920px;
+    width: 80%;
+}
+
+.block_2{
+    background: grey;
+    width: 60%;
+}
+
+.img{
+    width: 60%;
+}
