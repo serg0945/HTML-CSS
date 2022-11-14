@@ -1,0 +1,117 @@
+.html{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img{
+    width: 100%;
+}
+
+.First_p{
+    text-align: center;
+}
+
+.p1{
+    padding-top: 15px;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.p2{
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.img_and_form_content{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.img-container{
+    max-height: 400px;
+}
+
+
+.clBL{
+    width: 700px;
+    height: 400px;
+}
+
+.Blure{
+    position: relative;
+}
+
+.Tube{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form_content{
+    border: solid blue;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Vv{
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0;
+}
+
+.input_name{
+    padding: 10px;
+    width: 95%;
+    font-size: large;
+}
+
+.input_email{
+    padding: 10px;
+    width: 95%;
+    font-size: large;
+}
+
+.input_submit{
+    padding: 15px;
+    width: 100%;
+    color: #ffffff;
+    background: #00ff;
+    border: none;
+    font-size: large;
+}
+
+.br{
+    padding: 10px;
+}
+
+
+.Images-p_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin: none;
+}
+
+.p_images{
+    text-align: center;
+    max-width: 200px;
+    margin: 0;
+    padding-left: auto;
+    vertical-align: bottom;
+}
+
+.im{
+    max-width: 180px;
+    max-height: 215px;
+}
+
