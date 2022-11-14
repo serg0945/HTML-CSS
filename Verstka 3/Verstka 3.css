@@ -127,3 +127,50 @@ html{
     position: relative;
     top:15px;
 }
+
+.Third-article{
+    position: relative;
+}
+
+.Third-article-img{
+    width: 100%;
+}
+
+.Third-article-img-p{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+}
+
+.Reeding_House{
+    text-transform:uppercase;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.Under-Reeding{
+    letter-spacing: 0.5px;
+    width: 80%;
+}
+
+.Fourth-article{
+    padding: 80px;
+}
+
+.Fourth-article-top{
+    text-align: center;
+}
+
+.Fourth-article-top-p{
+    text-transform: uppercase;
+}
+
+.Fourth-article-top-h2{
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    padding: 20px;
+}
+
+
+
+
