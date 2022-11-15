@@ -130,6 +130,9 @@ html{
 
 .Third-article{
     position: relative;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
 }
 
 .Third-article-img{
@@ -138,8 +141,6 @@ html{
 
 .Third-article-img-p{
     position: absolute;
-    left: 70%;
-    top: 50%;
 }
 
 .Reeding_House{
@@ -154,11 +155,12 @@ html{
 }
 
 .Fourth-article{
-    padding: 80px;
+    padding: 50px;
 }
 
 .Fourth-article-top{
     text-align: center;
+    padding: 30px;
 }
 
 .Fourth-article-top-p{
@@ -166,11 +168,50 @@ html{
 }
 
 .Fourth-article-top-h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 0.5px;
     padding: 20px;
 }
 
+.Fourth-article-main-content{
+    display: flex;
+}
 
+.Fourth-article-main-content-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 20px;
+    height: 100%;
+}
 
+.Fourth-article-main-content-div img{
+    width: 15%;
+    height: 100%;
+}
 
+.Fourth-article-main-content-h5{
+    font-weight: 600;
+}
+
+.Fourth-article-main-content-p{
+    width: 46%;
+    text-align: center;
+    line-height: 24px;
+}
+
+.Five-article{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Five-arcticle-img{
+    width: 100%;
+}
+
+.Five-article-img-p{
+    position: absolute;
+}
