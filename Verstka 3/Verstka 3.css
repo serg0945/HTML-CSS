@@ -1,6 +1,7 @@
 html{
     font-size: 16px;
     font-family:Trebuchet MS;
+    letter-spacing: 1px;
 }
 
 
@@ -81,6 +82,7 @@ html{
     color: #000000;
     font-weight: 600;
     padding-left: 30px;
+    width:fit-content;
 }
 
 .img_Street{
@@ -124,8 +126,7 @@ html{
 }
 
 .Stephen-Collier-Senior-Partner-p{
-    position: relative;
-    top:15px;
+    align-self: center;
 }
 
 .Third-article{
@@ -210,8 +211,104 @@ html{
 
 .Five-arcticle-img{
     width: 100%;
+    height: 100%;
 }
 
 .Five-article-img-p{
     position: absolute;
 }
+
+.Sixth-article{
+    background-color:#403E3B;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    display: flex;
+}
+
+.Sixth-article-left{
+    padding: 100px;
+    width: 80%;
+    display: block;
+}
+
+.Sixth-article-left-top{
+    padding-bottom: 30px;
+}
+
+.Sixth-article-left-top-h4{
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.Sixth-article-left-top-p{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.Sixth-article-left-down-p{
+    width: 50%;
+}
+
+.Sixth-article-right{
+    gap: 130px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+
+.Seventh-article{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.Seventh-article-img{
+    width: 100%;
+}
+
+.Seventh-article-img-p{
+    position: absolute;
+    padding: 40px;
+}
+
+.Seventh-article-top-p{
+    text-transform: uppercase;
+}
+
+.Seventh-article-down-p{
+    padding-top: 15px;
+    width: 70%;
+}
+
+.Earth-article{
+    background-color:#F7F7F7;
+    padding: 100px;
+}
+
+
+.Earth-article-top-h3{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.Earth-article-top-p{
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+    width: 30%;
+}
+
+
+/*position: absolute;
+    align-self: flex-end;
+    margin: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000000;
+    font-size: 1rem;*/
