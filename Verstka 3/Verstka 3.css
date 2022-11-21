@@ -346,7 +346,6 @@ html{
     color: #000000;
 }
 
-
 .Nine-article{
     padding: 80px;
     display: flex;
@@ -643,12 +642,11 @@ html{
     .Earth-article{
         padding-top: 100px;
         padding-bottom: 60px;
-        min-height: 900px;
+        min-height: 800px;
     }
 
     .Earth-article-img-content img{
         min-width: 400px;
-        transform: translateY(15%);
     }
 
     .Earth-article-top-h3{
@@ -664,7 +662,6 @@ html{
     
     .Earth-article-down{
         padding-top:60px;
-        transform: translateY(120px)
     }
     
     .Earth-article-down-a{
@@ -673,7 +670,6 @@ html{
 
     .Earth-article-content-center{
         min-width: 400px;
-        transform: translateY(15%);
     }
 
     .Earth-article-content-center-down-p{
