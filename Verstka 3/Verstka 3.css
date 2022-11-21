@@ -2,11 +2,12 @@ html{
     font-size: 16px;
     font-family:Trebuchet MS;
     letter-spacing: 1px;
-    width: 100%;
 }
 
 .Main-posts-wrapper{
     line-height: 25px;
+    width: 100%;
+    height: 100%;
 }
 
 .container-header{
@@ -130,7 +131,7 @@ html{
     background-image: url("IMAGE (2).svg");
     background-repeat: no-repeat;
     min-height: 800px;
-    background-size: 100% 100%; 
+    background-size: 100%; 
 
 }
 
@@ -219,7 +220,7 @@ html{
 
 .Sixth-article-left{
     padding: 80px;
-    width: 90%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     gap:30px
@@ -237,12 +238,12 @@ html{
 }
 
 .Sixth-article-left-down-p{
-    width: 50%;
+    width: 60%;
 }
 
 .Sixth-article-right{
+    width: 30%;
     gap: 130px;
-    justify-content: center;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -253,15 +254,13 @@ html{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    position: relative;
-}
-
-.Seventh-article-img{
-    width: 100%;
+    background-image: url("IMAGE@2x.svg");
+    min-height: 770px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .Seventh-article-img-p{
-    position: absolute;
     padding: 40px;
 }
 
@@ -280,7 +279,6 @@ html{
     padding: 80px;
 }
 
-
 .Earth-article-top-h3{
     font-size: 2rem;
     padding-bottom: 20px;
@@ -298,12 +296,18 @@ html{
     justify-content: space-around;
 }
 
+.Earth-article-img-content img{
+    width: 30%;
+}
+
 .Earth-article-content-center{
     display: flex;
     background-image: url("IMAGE (1).png");
     flex-direction: column;
     gap:10px;
-    width: 375px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 533px;
 }
 
 .Earth-article-content-center-p{
@@ -324,7 +328,7 @@ html{
     color: #ffffff;
     border: 1px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #000000;
     font-size: 1rem;
     width: fit-content;
@@ -350,6 +354,9 @@ html{
 
 .Nine-article-left{
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
 
 .Nine-article-left-h3{
@@ -423,6 +430,7 @@ html{
     font-size: 2.2rem;
     font-weight: 100;
     width: 40%;
+    line-height: 40px;
 }
 
 .Ten-article-right{
@@ -462,7 +470,6 @@ html{
         min-width: 1350px;
     }
     
-    
     .header{
         padding: 20px;
     }
@@ -470,12 +477,12 @@ html{
     .header-right{
         padding: 20px;
         margin: 0;
-        gap: 5px;
+        gap: 10px;
     }
     
     .header-a{
         padding: 5px;
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .header-left-img{
@@ -489,23 +496,24 @@ html{
     }
     
     .First-article-left{
-        padding-left: 20px;
+        padding: 40px;
     }
 
     .First-article_h1{
-        font-size: 8rem;
-        line-height: 150px;
+        font-size: 6rem;
+        line-height: 120px;
         width: 100%;
+        font-weight: 300;
     }
 
     .First-article_p{
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 60px;
         width: 100%;
     }
 
     .Read-more{
-        font-size: 3rem;
+        font-size: 2.4rem;
         padding: 50px;
     }
 
@@ -516,6 +524,8 @@ html{
 
     .Second-article-h3{
         font-size: 3rem;
+        transform: translateY(15px);
+        font-weight: 400;
     }
 
     .Second-article-right{
@@ -526,6 +536,15 @@ html{
     .Second-article-p{
         line-height: 50px;
         width: 100%;
+    }
+
+    .img_Circle{
+        width: 15%;
+    }
+
+    .Stephen-Collier-Senior-Partner-p{
+        font-size: 2rem;
+        line-height: 35px;
     }
 
     .Third-article{
@@ -539,7 +558,7 @@ html{
 
     .Under-Reeding_House{
         line-height: 45px;
-        width: 100%;
+        width: 95%;
     }
 
     .Fourth-article{
@@ -570,22 +589,31 @@ html{
     }
 
     .Fourth-article-main-content-div img{
-        width: 28%;
-    }
-
-    .Five-article{
-    width: 1350px;
+        width: 35%;
     }
 
     .Five-article-img-p{
         font-size: 1.7rem;
-        width: 460px;
+        width: 500px;
         line-height: 40px;
     }
 
+    .Under-The_marble_staircase{
+        width: 95%;
+    }
+
+    .Sixth-article{
+        min-height: 500px;
+    }
+    
+    .Sixth-article-left{
+        width: 50%;
+        gap:40px
+    }
     
     .Sixth-article-left-top-h4{
         font-size: 3rem;
+        font-weight: 300;
     }
 
     .Sixth-article-left-top-p{
@@ -593,8 +621,184 @@ html{
     }
 
     .Sixth-article-left-down-p{
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 100%;
-        line-height: 35px;
+        line-height: 45px;
+        font-weight: 300;
+    }
+
+    .Seventh-article{
+        background-size: cover;
+    }
+
+    .Seventh-article-top-p{
+        font-size: 2.2rem;
+    }
+    
+    .Seventh-article-down-p{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .Earth-article{
+        padding-top: 100px;
+        padding-bottom: 60px;
+        min-height: 900px;
+    }
+
+    .Earth-article-img-content img{
+        min-width: 400px;
+        transform: translateY(15%);
+    }
+
+    .Earth-article-top-h3{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .Earth-article-top-p{
+        font-size: 2rem;
+        width: 70%;
+        line-height: 40px;
+    }
+    
+    .Earth-article-down{
+        padding-top:60px;
+        transform: translateY(120px)
+    }
+    
+    .Earth-article-down-a{
+        font-size: 1.75rem;
+    }
+
+    .Earth-article-content-center{
+        min-width: 400px;
+        transform: translateY(15%);
+    }
+
+    .Earth-article-content-center-down-p{
+        font-size: 2rem;
+    }
+
+    .Earth-article-content-center-top-p{
+        font-size: 1.4rem;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+
+    .Earth-article-content-center-a{
+        font-size: 1.5rem;
+    }
+    
+    .Nine-article{
+        padding: 40px;
+        height: 800px;
+        align-items: center;
+    }
+    
+    .Nine-article-left-h3{
+        font-size: 4rem;
+        font-weight:500;
+    }
+
+    .Nine-article-left-p{
+        font-size: 2.5rem;
+        line-height: 50px;
+        width: 85%;
+    }
+    
+    .Nine-article-left{
+        gap:50px;
+    }
+
+    .Nine-article-Worker-p-top{
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    
+    .Nine-article-right{
+        gap:20px;
+    }
+
+    .Nine-article-left-a{
+        font-size: 2.5rem;
+    }
+    
+    .Nine-article-right-Worker-img{
+        min-width: 150px;
+    }
+    
+    .Nine-article-center-Worker-img{
+        min-width: 150px;
+    }
+
+    .Nine-article-center-Worker-div{
+        font-size: 2rem;
+        gap:60px;
+    }
+
+    .Nine-article-right-Worker-div{
+        font-size: 2rem;
+        gap:60px;
+    }
+
+    .Nine-article-Worker-p{
+        width: 20%;
+        line-height: 40px;
+        font-size: 2rem;
+    }
+
+    .Ten-article{
+        align-items: center;
+        min-height: 400px;
+    }
+
+    .Ten-article-left{
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .Ten-article-left-h2{
+        font-size: 3.5rem;
+        line-height: 60px;
+        width: 70%;
+        font-weight: 300;
+    }
+
+    .Ten-article-left-p{
+        font-size: 1.5rem;
+    }
+
+    .Ten-article-right{
+        width: 250px;
+    }
+    
+    .Ten-article-right-a{
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .Eleven-article{
+        padding: 60px;
+        font-size: 2rem;
+    }
+
+    .Eleven-article-left{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 78.5%;
+    }
+
+    .Eleven-article img{
+        width: 50%;
+    }
+
+    .Eleven-article-right img{
+        width: 60px;
+        height: 60px;
     }
 }
