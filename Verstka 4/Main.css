@@ -356,11 +356,14 @@ body{
     padding: 20px;
 }
 
-.main__section{
+.title__section{
+  text-align: center;
+  color: #1e90ff;
 }
 
 .header__content{
     display: flex;
+    gap:4rem;
 }
 
 .header__content > div{
@@ -371,15 +374,18 @@ body{
 .header__nav{
     display: flex;
     padding-inline-start: 0;
+    gap: 2rem;
 }
 
 .avatar{
     width: 20rem;
 }
 
-.header__leftside .header__h2{
+.header__leftside >.header__title{
     align-self: center;
-    max-width: 30%;
+    max-width:100%;
+    text-align: center;
+    color: #1e90ff;
 }
 
 .a{
@@ -423,20 +429,18 @@ body{
     box-sizing: border-box;
     border: 1px solid #000000;
     padding: 20px;
-    background: linear-gradient(90deg, rgba(255,255,255) 0%, #0800ff 100%);
+    background: linear-gradient(90deg, rgba(255,255,255) 0%, #1e90ff 100%);
     border-radius: 10px;
 }
 
 .price__container1 >.price__container2{
     display: flex;
     border-bottom: 5px solid #000000;
-    
 }
 
 .price__container2 > .price__p{
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
+    width: 50%;
 }
 
 .iron__title{
@@ -453,6 +457,40 @@ body{
 .iron__content{
     Max-width: 50rem;
 }
+
+.contacts__container{
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+  text-align: center;
+}
+
+.contacts__h2{
+  text-align: center;
+}
+
+.contacts__content > .contacts__title_margin{
+  margin-top: 0;
+}
+
+.contacts__content > .contacts__title_width{
+  width: 25rem;
+  margin: auto;
+} 
+
+.footer__content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  background: #a6caf0;
+}
+
+.footer__content > .footer__p{
+  width: 20rem;
+  color: #ffffff;
+}
+
 
 
 
