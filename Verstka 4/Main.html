@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Normalyize.css" rel="stylesheet">
     <link rel="stylesheet" href="Main.css">
     <title>Gaming Faith</title>
 </head>
@@ -12,7 +13,7 @@
         <div class="header">
             <div class="header__content">
                 <div class="header__leftside">
-                    <img src="Verstka_img/Логотип.svg" class="avatar">
+                    <img src="Verstka_img/Логотип_синий_нимб.svg" class="avatar">
                     <h2 class="header__title">Gaming Faith</h2>
                 </div>
                 <div class="header__centerside">
@@ -23,14 +24,12 @@
                         <a class="a" href="#Цены">Цены</a>
                         <img src="Verstka_img/Корпус.svg" class="header__imgs">
                         <a class="a" href="#Железо">Железо</a>
-                        <img src="Verstka_img/Фотоаппарат.svg" class="header__imgs">
-                        <a class="a" href="#">Фотки</a>
                         <img src="Verstka_img/О клубе.svg" class="header__imgs">
                         <a class="a" href="#Наши клубы">Контакты</a>
                     </ul>
                 </div>
                 <div class="phone">
-                    <p class="header__phone">+7 (800) 535-35-35</p>
+                    <a class="header__phone" href="https://myeow.com/">+7 (800) 535-35-35</a>
                 </div>
             </div>
         </div>
@@ -38,82 +37,103 @@
     <main>
         <section class="section__container">
             <section class="signup">
-                <h1 class="title title__section" id="Запись">Gaming Faith</h1>
-                <p class="signup__p">Сеть компьютерных клубов в Ростовоской области</p>
-                <div class="signup__content">
-                    <div class="signup__content1">
-                        <div class="signup__img-content">
-                            <img src="Verstka_img/Логотип.svg" class="avatar" alt="Logo">
+                <div class="signup__container">
+                    <h1 class="signup__title title__section" id="Запись">Gaming Faith</h1>
+                    <p class="signup__p signup__p_font_size">Сеть компьютерных клубов в Ростовоской области</p>
+                    <div class="signup__content">
+                        <div class="signup__content1">
+                            <img src="Verstka_img/Club1.jpg" class="signup__img__content" alt="Club1">
+                            <p class="signup__p signup__p_color">Gaming Faith Ростов</p>
+                            <p class="signup__p">Улица Пушкина, дом Колотушкина</p>
+                            <div class="signup__a">
+                                <a class="a" href="https://myeow.com/">Записаться</a>
+                            </div>
                         </div>
-                        <p class="signup__p signup__p_color">Gaming Faith Ростов</p>
-                        <p class="signup__p">Улица Пушкина, дом Колотушкина</p>
-                        <div class="signup__a">
-                            <a class="a">Записаться</a>
-                        </div>
-                    </div>
-                    <div class="signup__content1">
-                        <div class="signup__img-content">
-                            <img src="Verstka_img/Логотип.svg" class="avatar">
-                        </div>
-                        <p class="signup__p signup__p_color">Gaming Faith Ростов</p>
-                        <p class="signup__p">Улица Пушкина, дом Колотушкина</p>
-                        <div class="signup__a">
-                            <a class="a">Записаться</a>
+                        <div class="signup__content1">
+                            <img src="Verstka_img/Club2.jpg" class="signup__img__content" alt="Club2">
+                            <p class="signup__p signup__p_color">Gaming Faith Батайск</p>
+                            <p class="signup__p">Батайская пенза, Дом 28</p>
+                            <div class="signup__a">
+                                <a class="a" href="https://myeow.com/">Записаться</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="price">
                 <h2 class="title__section title" id="Цены">Актуальные цены клубов</h2>
-                <div class="price__container1">
-                    <div class="price__container-left price__container2">
-                        <p class="price__p">7:00 - 12:00</p>
-                        <p class="price__p">40руб.</p>
-                        <p class="price__p">60руб.</p>
+                <div class="price__container">
+                    <div class="price__content">
+                        <p class="price__p price__p_aligh_left price__p_font_weight">По времени</p>
+                        <p class="price__p price__p_aligh_center price__p_font_weight">Будни</p>
+                        <p class="price__p price__p_aligh_right price__p_font_weight price__p_padding">Выходные</p>
                     </div>
-                    <div class="price__container-center price__container2">
-                        <p class="price__p">1 час</p>
-                        <p class="price__p">60руб.</p>
-                        <p class="price__p">80руб.</p>
+                    <div class="price__content">
+                        <p class="price__p price__p_aligh_left">7:00 - 12:00</p>
+                        <p class="price__p price__p_aligh_center">40руб.</p>
+                        <p class="price__p price__p_aligh_right">60руб.</p>
                     </div>
-                    <div class="price__container-right price__container2">
-                        <p class="price__p">3 часа</p>
-                        <p class="price__p">160руб.</p>
-                        <p class="price__p">180руб.</p>
+                    <div class="price__content">
+                        <p class="price__p price__p_aligh_left">1 час</p>
+                        <p class="price__p price__p_aligh_center">60руб.</p>
+                        <p class="price__p price__p_aligh_right">80руб.</p>
                     </div>
-                    <div class="price__container-right price__container2">
-                        <p class="price__p">Ночной пакет 22:00 - 8:00</p>
-                        <p class="price__p">400руб</p>
-                        <p class="price__p">500руб.</p>
+                    <div class="price__content">
+                        <p class="price__p price__p_aligh_left">3 часа</p>
+                        <p class="price__p price__p_aligh_center">160руб.</p>
+                        <p class="price__p price__p_aligh_right">180руб.</p>
+                    </div>
+                    <div class="price__content">
+                        <p class="price__p price__p_aligh_left">Ночной пакет 22:00 - 8:00</p>
+                        <p class="price__p price__p_aligh_center">400руб</p>
+                        <p class="price__p price__p_aligh_right">500руб.</p>
                     </div>
                 </div>
             </section>
             <section class="iron">
                 <div class="iron__container">
-                    <h2 class="title__section title" id="Железо">Технические характеристики</h2>
+                    <h2 class="title__section iron__title" id="Железо">Технические характеристики</h2>
                     <div class="iron__content">
-                        <p class="iron__names"><strong>Процессор: </strong>Intel Core i5 9600KF <strong>Видеокарта: </strong>MSI RTX 2060 SUPER 8Gb <strong>Монитор: </strong> BenQ 144Hz 
-                        <strong>Клавиатура: </strong>DEXP Saber <strong>Мышки: </strong> Logitech G102 Prodigy <strong>Наушники: </strong> HyperX Cloud Stinger HX-HSCS-BK</p>
+                        <div class="iron__block">
+                            <div class="iron__names iron__names_font_weight">
+                                <p class="iron__p iron__p_width">Процессор:</p>
+                                <p class="iron__p iron__p_width">Видеокарта:</p>
+                                <p class="iron__p iron__p_width">Монитор:</p>
+                                <p class="iron__p iron__p_width">Клавиатура:</p>
+                                <p class="iron__p iron__p_width">Мышки:</p>
+                                <p class="iron__p iron__p_width">Наушники:</p>
+                            </div>
+                            <div class="iron__names">
+                                <p class="iron__p">Intel Core i5 9600KF</p>
+                                <p class="iron__p">MSI RTX 2060 SUPER 8Gb</p>
+                                <p class="iron__p">BenQ 144Hz</p>
+                                <p class="iron__p">DEXP Saber</p>
+                                <p class="iron__p">Logitech G102 Prodigy</p>
+                                <p class="iron__p">HyperX Cloud Stinger HX-HSCS-BK</p>
+                            </div>
+                            <img src="Verstka_img/Железо.jpg" class="iron__img" alt="Железо">
+                        </div>
                     </div>
-                    <div class="iron__img"></div>
                 </div>
             </section>
             <section class="contacts">
-                <h2 class="title__section title" id="Наши клубы">Наши клубы</h2>
-                <div class="contacts__container">
-                    <div class="contacts__left">
-                        <div class="contacts__content">
-                            <h3 class="contacts__title contacts__title_margin">Gaming Faith</h3>
-                            <p class="contacts__title contacts__title_width">+7 (800) 535-35-35 Улица Пушкина, Дом Колотушкина</p>
+                <div class="contacts__container1">
+                    <h2 class="title__section contacts__h2" id="Наши клубы">Наши клубы</h2>
+                    <div class="contacts__container2">
+                        <div class="contacts__left">
+                            <div class="contacts__content">
+                                <h3 class="contacts__title contacts__title_padding">Gaming Faith</h3>
+                                <p class="contacts__title contacts__title_width contacts__title_padding">+7 (800) 535-35-35 Улица Пушкина, Дом Колотушкина</p>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713.4443309257426!2d39.74816977700934!3d47.14915147115154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3bc8d7765831f%3A0x2df5edcdebbc68ae!2z0YPQuy4g0J_Rg9GI0LrQuNC90LAsINCR0LDRgtCw0LnRgdC6LCDQoNC-0YHRgtC-0LLRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1670479817929!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713.4443309257426!2d39.74816977700934!3d47.14915147115154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3bc8d7765831f%3A0x2df5edcdebbc68ae!2z0YPQuy4g0J_Rg9GI0LrQuNC90LAsINCR0LDRgtCw0LnRgdC6LCDQoNC-0YHRgtC-0LLRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1670479817929!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="contacts__right">
-                        <div class="contacts__content">
-                            <h3 class="contacts__title contacts__title_margin">Gaming Faith</h3>
-                            <p class="contacts__title contacts__title_width">+7 (800) 535-35-35, Батайская пенза, Дом 28</p>
+                        <div class="contacts__right">
+                            <div class="contacts__content">
+                                <h3 class="contacts__title contacts__title_padding">Gaming Faith</h3>
+                                <p class="contacts__title contacts__title_width contacts__title_padding">+7 (800) 535-35-35, Батайская пенза, Дом 28</p>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.4786878630903!2d44.990547590021016!3d53.15544989262323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4141001cce53f407%3A0xbe44f031661affa0!2z0YPQuy4g0JHQsNGC0LDQudGB0LrQsNGPLCDQn9C10L3Qt9CwLCDQn9C10L3Qt9C10L3RgdC60LDRjyDQvtCx0LsuLCA0NDAwMzE!5e0!3m2!1sru!2sru!4v1670480800486!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.4786878630903!2d44.990547590021016!3d53.15544989262323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4141001cce53f407%3A0xbe44f031661affa0!2z0YPQuy4g0JHQsNGC0LDQudGB0LrQsNGPLCDQn9C10L3Qt9CwLCDQn9C10L3Qt9C10L3RgdC60LDRjyDQvtCx0LsuLCA0NDAwMzE!5e0!3m2!1sru!2sru!4v1670480800486!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </section>
@@ -121,12 +141,15 @@
         <footer>
             <div class="footer__container">
                 <div class="footer__content">
-                    <img src="Verstka_img/Логотип.Svg" class="avatar">
+                    <div class="footer__content__left">
+                        <img src="Verstka_img/Логотип.Svg" class="avatar">
+                        <h2 class="title__section title__section_footer_padding">Gaming Faith</h2>
+                    </div>
                     <p class="footer__p">Если понадобится помощь: <strong>Gdemoypivo@mail.ru</strong></p>
                     <p class="footer__p">Звоните бесплатно по МСК: <strong>+7 (800) 535-35-35</strong></p>
                 </div>
             </div>
         </footer>
-        </section>
+    </section>
 </body>
 </html>
